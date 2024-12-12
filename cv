@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Your Name</a>
+        <nav>
+            <a href="bio.html">Bio</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="cv.html">CV</a>
+        </nav>
+    </header>
+
+    <main class="cv-content">
+        <section class="cv-section">
+            <h2>Education</h2>
+            <div class="cv-item">
+                <h3>Degree Name</h3>
+                <div class="date">2018 - 2022</div>
+                <p>Institution Name, Location</p>
+            </div>
+            <!-- Add more education items -->
+        </section>
+
+        <section class="cv-section">
+            <h2>Exhibitions</h2>
+            <div class="cv-item">
+                <h3>Exhibition Title</h3>
+                <div class="date">Month Year</div>
+                <p>Gallery Name, Location</p>
+            </div>
+            <!-- Add more exhibition items -->
+        </section>
+
+        <section class="cv-section">
+            <h2>Awards & Grants</h2>
+            <div class="cv-item">
+                <h3>Award Name</h3>
+                <div class="date">Year</div>
+                <p>Description or Institution</p>
+            </div>
+            <!-- Add more awards -->
+        </section>
+
+        <section class="cv-section">
+            <h2>Publications</h2>
+            <div class="cv-item">
+                <h3>Publication Title</h3>
+                <div class="date">Year</div>
+                <p>Publisher or Journal</p>
+            </div>
+            <!-- Add more publications -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-section">
+            <h2 class="contact-title">Contact</h2>
+            <div class="contact-info">
+                <p class="contact-item">Email: your.email@example.com</p>
+                <p class="contact-item">Studio: [Your Studio Address]</p>
+                <p class="contact-item">Tel: [Your Phone Number]</p>
+            </div>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
