@@ -1,0 +1,20 @@
+import pandas as pd
+
+# 创建一个简单的 DataFrame
+data = {
+    'Name': ['John', 'Anna', 'Peter', 'Linda'],
+    'Age': [28, 24, 35, 32],
+    'City': ['New York', 'Paris', 'Berlin', 'London']
+}
+
+df = pd.DataFrame(data)
+
+# 打印 DataFrame
+print("DataFrame 基本信息:")
+print(df)
+print("\nDataFrame 统计摘要:")
+print(df.describe())
+
+# 简单数据操作示例
+print("\n年龄大于 30 的人:")
+print(df[df['Age'] > 30])
